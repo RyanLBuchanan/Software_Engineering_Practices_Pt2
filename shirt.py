@@ -8,5 +8,8 @@ class Shirt:
     def change_price(self, new_price):
         self.price = new_price
 
+    def convert_euros(self, new_price):
+        self.price = 0.81 * new_price
+
     def discount(self, discount):
         return self.price * (1 - discount)

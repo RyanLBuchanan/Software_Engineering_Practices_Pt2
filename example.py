@@ -9,3 +9,6 @@ print(shirt_two.color)
 
 shirt_three.change_price(45)
 print(shirt_three.price)
+
+shirt_three.convert_euros(45)
+print(shirt_three.price)
